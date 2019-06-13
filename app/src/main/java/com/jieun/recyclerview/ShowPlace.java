@@ -134,7 +134,7 @@ public class ShowPlace extends AppCompatActivity {
                     htmlContentInStringFormat2 += e.text().trim() + " ";
                 }
 
-                //Elements image = doc.select("div.dx-viewport");
+             
 
             }catch (IOException ex){
                 ex.printStackTrace();
