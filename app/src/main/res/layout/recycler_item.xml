@@ -65,16 +65,16 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/entryfee" />
 
-    </android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="원"
+            app:layout_constraintBaseline_toBaselineOf="@+id/entryfee"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_price" />
 
-    <Button
-        android:id="@+id/addbtn"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginRight="6dp"
-        android:layout_weight="0.06"
-        android:background="@drawable/recyclerbtn"
-        android:text="Add\n My Trip" />
+    </android.support.constraint.ConstraintLayout>
 
 </LinearLayout>
