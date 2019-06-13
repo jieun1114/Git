@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpicture">
+
+    <Button
+        android:id="@+id/theme1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/schedulebtn"
+        android:drawableTop="@drawable/ic_gung_theme1"
+        android:gravity="bottom|center"
+        android:onClick="clickTheme"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:text="문화"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/theme2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/schedulebtn"
+        android:drawableTop="@drawable/ic_adventure_theme2"
+        android:gravity="bottom|center"
+        android:onClick="clickTheme"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:text="액티비티"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/theme3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/schedulebtn"
+        android:drawableTop="@drawable/ic_complex_theme3"
+        android:gravity="bottom|center"
+        android:onClick="clickTheme"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:text="복합"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/theme4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/schedulebtn"
+        android:drawableTop="@drawable/ic_noun_favorite_2347670"
+        android:gravity="bottom|center"
+        android:onClick="clickTheme"
+        android:paddingTop="15dp"
+        android:paddingBottom="2dp"
+        android:text="TOP10"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
